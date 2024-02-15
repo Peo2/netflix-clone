@@ -1,0 +1,472 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: rgba(0, 0, 0,0.7);
+    font-family: 'Courier New', Courier, monospace;
+    width: 1349px;
+}
+.unlimitedcontainer{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url('./realnet.png');
+    width: 1349px;
+    height: 700px;
+    box-sizing: border-box;
+}
+.head{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   /* height: 70px;*/
+    /*margin-top: 10px;*/
+    height: 92px;
+    width: 1124.16px;
+    margin: 0px 112.422px ;
+    padding: 24px 48px;
+}
+.head .ham{
+    display: none;
+}
+.head h1{
+    color: rgb(229, 9, 20);
+    height: 100%;
+    width: 5.5625rem;
+    font-size: 48px;
+    /*margin-top: 30px;*/
+    /*padding-left: 30px;*/
+    letter-spacing: -3px;
+}
+.head button{
+    background-color: rgb(229, 9, 20) ;
+    height: 30px;
+    width: 70px;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+   /* margin-top: 30px;*/
+}
+.getstarted{
+text-align: center;
+/*margin-left: 250px;*/
+/*margin-right: 200px;*/
+margin-top: 210px;
+color: white;
+width: 884.94px;
+height: 202;
+margin-left: 250px;
+}
+.getstarted h2{
+    /*margin-bottom:10px;*/
+    font-weight: 900;
+    font-size: 40px;
+    width: 884.92px;
+    height: 62px;
+    /*word-spacing: -12px;*/
+}
+.getstarted input{
+    width: 368.75px;
+    height: 56px;
+    /*margin-right: 10px*/;
+    background-color: rgba(0, 0, 0,0.7);
+    color: white;
+    text-indent: 10px;
+    border-radius: 5px;
+    /*padding:  16px 8px;*/
+   /* margin-top: 10px;*/
+    margin-left: 20px;
+}
+.getstarted h3{
+    /*word-spacing: -5px;*/
+    font-size: 24px;
+    width: 884.94px;
+    height: 30px;
+    word-spacing: -5px; 
+}
+.both button {
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: rgb(229, 9, 20);
+    height: 56px;
+    width: 209.25px;
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 10px;
+}
+.both{
+    /*margin-top:10px;*/
+}
+.emailbutton{
+    
+}
+.both h3{
+    width: 820.94px;
+    height: 30px;
+    font-size: 18px;
+    /*padding: 16px 0px;*/
+}
+
+.maincontainer1{
+    background-color: black;
+    margin-top: 10px;
+    width: 1349px;
+    height: 529.05px;
+    padding: 72px 0px;
+    color: white;
+}
+.tvcontainer {
+    width: 1028.16px;
+    height: 385.05px;
+    padding: 0px 160.422px;
+    display: flex;
+    justify-content: space-between;
+}
+.enjoy{
+    text-align: left;
+    padding-right: 0.375rem;
+    padding-top: 70px;
+}
+.enjoy h2{
+    width: 508.08px;
+    height: 62px;
+    font-size: 48px;
+}
+.enjoy h3{
+    width: 508.08px;
+    height: 90px;
+}
+.maincontainer2{
+    background-color: black;
+    margin-top: 10px;
+    width: 1349px;
+    height: 529.05px;
+    padding: 72px 0px;
+    color: white;
+}
+.phonecontainer{
+    width: 1028.16px;
+    height: 385.05;
+    padding: 0px 160.422px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+.offline{
+    width: 541.08px;
+    height: 224px;
+    padding: 0px 0px 0px 6px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.phonecontainer h2{
+    width: 508.08px;
+    height: 24px;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+.phonecontainer h3{
+    width: 508.08px;
+    height: 60px;
+    padding: 16px 0px opx;
+    margin-top: 20px;
+}
+.maincontainer3{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    width: 1349px;
+    height: 398px;
+    padding: 72px 0px;
+    padding-left: 300px;
+}
+.maincontainer3 h2{
+    font-size: 48px;
+    width: 421.66px;
+    height: 124px;
+} 
+.maincontainer3 h3{
+    font-size: 24px;
+    width: 421.66px;
+    height: 90px;
+    margin: 16px 0px 0px;
+}
+.maincontainer4{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    width: 1349px;
+    height: 529.05px;
+}
+.kid{
+    padding: 72px 0px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   /* padding-left: 60px;*/
+}
+.createprofile{
+   /* word-spacing: -5px;*/
+    /*padding-top: 10px;*/
+    /*padding-right: 40px;*/
+    width: 514.08px;
+    height: 254px;
+    padding-left: 20px;
+}
+.createprofile h2{
+    width: 508.08p;
+    height: 124px;
+    font-size: 45px;
+    word-spacing: -10px;
+}
+.createprofile h3{
+    font-size: 20px;
+    width: 508.08px;
+    height: 90px;
+    /*padding: 16px 0px 0px;*/
+}
+.maincontainer5{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    width: 1349px;
+    height: 927.59px;
+    padding: 72px 140px;
+    
+}
+.accodion label h3{
+    border: 1px solid blue;
+    width: 1028.16px;
+    height: 84px;
+    padding: 24px;
+    font-size: 24px;
+    background-color: rgba(85, 79, 79, 0.829);
+    border-style: none;
+    cursor: pointer;
+    transition: background 0.1s;
+    margin-bottom: 10px;
+}
+.accodion label h3:hover{
+    background: rgb(85, 82, 82);
+   }
+   .accodioncontent p {
+    border: 1px solid blue;
+    width: 1028.16px;
+    height: 150px;
+    padding: 24px;
+    background-color: rgba(85, 79, 79, 0.829);
+    border-style: none;
+    display: none;
+    /*visibility: hidden;*/
+   }
+   .accodion label h3:hover.accodioncontent p {
+    visibility: visible;
+   }
+.maincontainer5 h2{
+    font-size: 48px;
+    width: 1028.16px;
+    height: 62px;
+    text-align: center;
+}
+.membership{
+    /*margin-top: 30px;*/
+    width: 920px;
+    height: 102px;
+    text-align: center;
+   }
+   .membership input{
+    width: 368.75px;
+    height: 56px;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0,0.7);
+    color: white;
+    text-indent: 10px;
+    border-radius: 5px;
+   /* margin-left: 300px;*/
+   padding:  16px 8px; 
+}
+.membership h3{
+    /*word-spacing: -5px;*/
+    font-size: 20px;
+   /* margin-left: 150px;*/
+   width: 920px;
+   height: 30px;
+}
+.membership button{
+    width: 209.25px;
+    height: 56px;
+    font-size: 20px;
+    background-color: rgb(229, 9, 20);
+    border-style: none;
+    border-radius: 5px;
+}
+.maincontainer6{
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    width: 1349px;
+    height: 529.05px;
+    
+}
+.maincontainer6 h1{
+    visibility: hidden;
+}
+.mainfooter {
+    width: 1124.16px;
+    height: 264px;
+    margin: 72px 112.422px;
+    padding:  48px;
+}
+.firstfooter{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:390px){
+    body{
+        width: 100%;
+    }
+    .unlimitedcontainer{
+      background-position: center;
+      object-fit: cover;
+    }
+    .head {
+        margin-top: 0;
+        padding-right: 40px;
+    }
+    .head h1{
+           margin-right: auto;
+           font-weight: 900;
+           font-size: 90px;
+    }
+    .head button{
+        width: 220px;
+        height: 80px;
+        font-size: 45px;
+        font-weight: 900;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .head .ham{
+        display: block;
+    }
+    .getstarted h2{
+        font-size: 70px;
+        font-weight: 900px;
+        margin-bottom: 100px;
+        width: auto;
+    }
+    .getstarted h3{
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-weight: 900px;
+    }
+    .both h3{
+        font-size: 30px;
+    }
+    .getstarted input{
+        width: 800px;
+        font-size: 25px;
+    }
+    .both button{
+        color: white;
+        height: 80px;
+        width: 400px;
+        margin-top: 10px;
+        font-size: 40px;
+        font-weight: 900;
+    }
+    .maincontainer1{
+        margin-top: 30px;
+        height: 1000px;
+        width: 100%;
+    }
+    .tvcontainer{
+        display: block;
+    }
+    .enjoy{
+        margin-top: -50px;
+        /*padding-left: 100px;*/
+        padding: 0px 100px;
+    }
+    .enjoy h2{
+        font-size: 70px;
+        font-weight: 900;
+        word-spacing: 5px;
+        margin-bottom: 20px;
+        width: 700px;
+     }
+     .enjoy h3{
+        font-size: 40px;
+        width: 900px;
+     }
+     .tvcontainer .animation img{
+         width: 1500px;
+     }
+     .maincontainer2{
+        height: 800px;
+     }
+     .phonecontainer{
+        display: block;
+     }
+     .offline{
+       padding: 0px 10px 50px ;
+       margin-top: 40px;
+       margin: 0;
+       width: 100%;
+     }
+     .offline h2{
+        font-size: 60px;
+        width: 1000px;
+     }
+     .offline h3{
+        font-size: 30px;
+        margin-top: 30px;
+     }
+     .maincontainer3{
+        height: 600px;
+     }
+     .maincontainer3 h2{
+        font-size: 80px;
+        width: 500px;
+     }
+     .maincontainer3 h3{
+        font-size: 30px;
+        padding-top: 50px;
+     }
+     .maincontainer4{
+        height: 900px;
+    }
+    .kid{
+        display: block;
+        padding-left: 300px;
+    }
+}
+@keyframes kayman{
+    0%{
+        background-color: red;
+        font-size: 5px; 
+    }
+    25%{
+        background-color: yellow;
+        font-size: 10px; 
+    }
+    50%{
+        background-color: green;
+        font-size: 15px; 
+    }
+    75%{
+        background-color: blue;
+        font-size: 20px; 
+    }
+    100%{
+        background-color: violet;
+        font-size: 25px; 
+    }
+    
+}
+.animation{
+    animation-name: kayman;
+    animation-duration: 5s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
