@@ -305,22 +305,33 @@ margin-left: 250px;
     color: white;
     margin-top: 10px;
     width: 1349px;
-    height: 529.05px;
-    
+    height: 300px;
+    padding-top: 5%;
+    line-height: 30px;
+    padding-left: 10%;
+    padding-right: 25%;
 }
-.maincontainer6 h1{
-    visibility: hidden;
+.mainfooter a{
+    color: white;
+    list-style: none;
 }
-.mainfooter {
-    width: 1124.16px;
-    height: 264px;
-    margin: 72px 112.422px;
-    padding:  48px;
-}
-.firstfooter{
+.flexbbox{
     display: flex;
     justify-content: space-between;
 }
+.firstrow ul li{
+    list-style: none;
+}
+.secondrow ul li{
+    list-style: none;
+}
+.thirdrow ul li{
+    list-style: none;
+}
+.fourtrow ul li{
+    list-style: none;
+}
+
 @media screen and (max-width:390px){
     body{
         width: 100%;
