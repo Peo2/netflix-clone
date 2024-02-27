@@ -232,35 +232,42 @@ margin-left: 250px;
     width: 1349px;
     height: 927.59px;
     padding: 72px 140px;
-    
 }
-.accodion label h3{
-    border: 1px solid blue;
+.accodion{
+    /*background-color: rgba(85, 79, 79, 0.829);*/
+    margin-bottom: 10px;
+}
+.writeup {
     width: 1028.16px;
     height: 84px;
     padding: 24px;
-    font-size: 24px;
     background-color: rgba(85, 79, 79, 0.829);
-    border-style: none;
+    position: relative;
     cursor: pointer;
     transition: background 0.1s;
-    margin-bottom: 10px;
 }
-.accodion label h3:hover{
+.writeup h3{
+    font-size: 24px;
+}
+.writeup h3 i{
+    float: right;
+}
+.writeup :hover{
     background: rgb(85, 82, 82);
    }
+   .accodioncontent{
+    width: 1070.16px;
+    display: none;
+   }
+   .writeup:hover +.accodioncontent{
+    display: block;
+   }
    .accodioncontent p {
-    border: 1px solid blue;
     width: 1028.16px;
     height: 150px;
     padding: 24px;
     background-color: rgba(85, 79, 79, 0.829);
     border-style: none;
-    display: none;
-    /*visibility: hidden;*/
-   }
-   .accodion label h3:hover.accodioncontent p {
-    visibility: visible;
    }
 .maincontainer5 h2{
     font-size: 48px;
